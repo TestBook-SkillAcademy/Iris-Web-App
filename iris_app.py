@@ -9,7 +9,7 @@ decision_tree = pickle.load(open('dt_model.pkl','rb'))
 random_forest = pickle.load(open('rf_model.pkl','rb'))
 
 # rb = 'read binary'
-st.title('Iris ML Web App')
+st.title('Iris ML Simulator')
 
 ml_model = ['Logistic Regression','DecisionTree Classifier','RandomForest Classifier']
 option = st.sidebar.selectbox('Select the ML model which you want to use',ml_model)
